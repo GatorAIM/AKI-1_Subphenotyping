@@ -1,0 +1,17 @@
+collections
+lifelines
+matplotlib
+mpl_toolkits
+multiprocessing
+nbimporter
+numpy
+pandas
+pyckmeans
+pylab
+scipy
+seaborn
+sklearn
+string
+time
+tqdm
+warnings
