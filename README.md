@@ -1,9 +1,9 @@
-# Project Description:
+# Project Description
 Acute Kidney Injury (AKI) can harm multiple organ systems, including the heart, brain, and the immune system. Stage 1 AKI (AKI-1), though mild in presentation, represents a critical subset of AKI patients with distinct outcomes, warranting further investigation into its subphenotypes. In this study, we conducted a clustering analysis on 7-day serum creatinine (SCr) trajectories of AKI-1 patients from eight academic hospitals, revealing three distinct subphenotypes. This repository contains all the code used for analysis. All patient privacy and hospital-related information has been masked.
 ![image](https://github.com/user-attachments/assets/e4082109-2a24-488f-9039-bb9bab2f7535)
 
 
-# Requirements:
+# Requirements
 collections  
 lifelines  
 matplotlib  
@@ -22,7 +22,7 @@ time
 tqdm  
 warnings  
 
-# Notebook Description:
+# Notebook Description
 1. A_Label_AKI_Onsets_maksed.ipynb: Compute SCr baseline for each encounter by 3 steps, staging AKI by KDIGO SCr definitions.
 2. B_Data_Preprocessing_masked.ipynb: Inclusion and exclusion of patients according to demographics, procedure history, comorbidities and SCr measurements.
 3. C_Clustering_Features_masked.ipynb: Extract 4 critical SCr trajectories features and apply consensus k-means to them.
