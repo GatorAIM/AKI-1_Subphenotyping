@@ -22,7 +22,7 @@ time
 tqdm  
 warnings  
 
-# Notebook Description
+# Notebook Description:
 1. A_Label_AKI_Onsets_maksed.ipynb: Compute SCr baseline for each encounter by 3 steps, staging AKI by KDIGO SCr definitions.
 2. B_Data_Preprocessing_masked.ipynb: Inclusion and exclusion of patients according to demographics, procedure history, comorbidities and SCr measurements.
 3. C_Clustering_Features_masked.ipynb: Extract 4 critical SCr trajectories features and apply consensus k-means to them.
